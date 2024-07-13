@@ -29,7 +29,6 @@
 }
 
 body {
-    background-color: var(--pale-blue);
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: var(--font-size-base);
     line-height: 1.5;
@@ -70,6 +69,13 @@ body {
     max-width: 500px;
 }
 
+.results-title {
+    color: var(--light-lavender);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
 .score {
     width: 150px;
     height: 150px;
@@ -79,4 +85,34 @@ body {
     display: grid;
     place-content: center;
     justify-self: center;
+    padding: 2rem;
 }
+
+.score > p:nth-child(1) {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.score > p:nth-child(2) {
+    color: var(--light-lavender);
+}
+
+.text-content {
+    padding: 0 2rem;
+}
+
+.text-content-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.summary-list {
+    padding: 0 2rem;
+}
+
+.summary-list-item {
+    list-style-type: none;
+}
+
+
+
