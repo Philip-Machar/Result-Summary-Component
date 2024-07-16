@@ -39,25 +39,11 @@ body {
 }
 
 .card {
+    display: flex;
     background-color: var(--white);
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-@media (min-width: 600px) {
-    .card {
-        display: flex;
-    }
-
-    .results,
-    .summary {
-        flex: 1;
-    }
-
-    .results {
-        border-radius: 2rem;
-    }
 }
 
 /* Result Section */
@@ -68,7 +54,10 @@ body {
     color: var(--white);
     text-align: center;
     background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
+    border-radius: 2rem;
     max-width: 450px;
+    flex: 1;
+    
 }
 
 .results-title {
@@ -117,6 +106,10 @@ body {
 }
 
 /* Summary Section */
+
+.summary {
+    flex: 1;
+}
 
 .summary-title {
     font-size: 24px;
