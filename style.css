@@ -24,7 +24,7 @@
     --violet-blue: hsla(256, 72%, 46%, 1);
     --persion-blue: hsla(241, 72%, 46%, 0);
 
-    /* Gradients colors*/
+    /* font size*/
     --font-size-base: 18px;
 }
 
@@ -287,8 +287,60 @@ body {
         border-radius: 0 0 2rem 2rem;
     }
 
-    .text-content {
-        padding: 0 3.5rem 2.5rem;
+    .score {
+        width: 125px;
+        height: 125px;
+        padding: 1.5rem;
+        margin-bottom: 0.7rem;
     }
 
+    .score > p:nth-child(1) {
+        font-size: 44px;
+    }
+
+    .text-content {
+        padding: 0 3.5rem 2rem;
+    }
+
+    .text-content-title {
+        font-size: 22px;
+        margin-bottom: 0.25rem;
+    }
+
+    .text {
+        font-size: 14.5px;
+    }
+
+    .summary {
+        font-size: 14px;
+    }
+
+    .summary-title {
+        font-size: 17px;
+        padding: 1rem 2rem;
+    }
+
+    .summary-item-left > svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .summary-list {
+        padding: 0 2rem;
+        gap: 1rem;
+    }
+    
+    .summary-list-item {
+        padding: 0.75rem;
+    }
+
+    .continue-btn-container {
+        padding: 1rem 2rem;
+    }
+    
+    .continue-btn-container > button {
+        font-size: 15px;
+        padding: 1rem 2rem;
+    }
+    
 }
