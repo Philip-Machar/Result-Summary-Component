@@ -194,6 +194,11 @@ body {
     background-color: var(--dark-gray-blue);
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.continue-btn-container > button:hover {
+    background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
 }
 
 /* MEDIA QUERIES */
