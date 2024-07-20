@@ -24,14 +24,14 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
-[Add a screenshot of your solution here]
+![Desktop Preview](/assets/images/result-summary-desktop-view.png)
+![Mobile Preview](/assets/images/result-summary-mobile-view.png)
 
 ### Links
 
-- Solution URL: [Add your solution URL here]
-- Live Site URL: [Add your live site URL here]
+- Live Site URL: [https://philip-machar.github.io/Result-Summary-Component/]
 
 ## My Process
 
