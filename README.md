@@ -61,7 +61,6 @@ Areas I want to continue focusing on in future projects:
 
 ## Author
 
-- Website - [Philip Machar](https://www.your-site.com)
 - Twitter - [@Philip_Machar](https://www.twitter.com/Philip_Machar)
 
 
