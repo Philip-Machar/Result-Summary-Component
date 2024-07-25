@@ -48,7 +48,7 @@ During this project, I improved my skills in:
 
 - Creating responsive layouts using Flexbox and CSS Grid
 - Implementing gradients and custom color schemes
-- Using CSS custom properties for easy theme management
+- Using CSS custom properties
 - Designing for different screen sizes (desktop, tablet, and mobile)
 
 ### Continued Development
